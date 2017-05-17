@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<video width="150%" height="100%" autoplay muted playsinline>
+  <source src="test.mp4" type="video/mp4">
+</video>
+
+
+</body>
+
+
+
+<script>
+
+// if (confirm("It looks like you're walking back home. Are you willing to participate in an experiment?") == true) {
+//     txt = "OK!";
+// } else {
+//     txt = "Cancel";
+// }
+
+if (confirm("To participate in the experience, turn on your camera flashlight and keep walking") == true) {
+    txt = "OK!";
+} else {
+    txt = "Cancel";
+}
+
+setTimeout(function() { alert("See all those dots? At this exact moment, there are 8 other people with their flash lights on, walking home alone at night too."); }, 8000);
+
+</script>
+</html>
